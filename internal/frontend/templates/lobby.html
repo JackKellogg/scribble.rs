@@ -1114,7 +1114,7 @@
                     //This dialog could potentially stay visible from last
                     //turn, in case nobody has chosen a word.
                     waitChooseDialog.style.visibility = "hidden";
-                    promptWords(parsed.data[0], parsed.data[1], parsed.data[2]);
+                    promptWords(parsed.data[0], parsed.data[1], parsed.data[2], parsed.data[3], parsed.data[4]);
                 } else if (parsed.type === "drawing") {
                     applyDrawData(parsed.data);
                 } else if (parsed.type === "kick-vote") {
